@@ -74,31 +74,22 @@ body{font: 14px 宋体 Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-se
 .footer .practice-mode .text p span{padding-left: 24px;}
 
 
-
-
-
-
-
-
-
-
-
-/*album*/
-.album-content .img-info{margin-top: 66px; overflow: hidden; font-size: 16px; margin-bottom: 126px;}
-.album-content .img-info img{float: left; padding-right: 60px;}
-.album-content .img-info .title{line-height: 30px; margin-top: 124px; padding-left: 20px;}
-.album-content .img-info .title .data{color: #ff7f21;}
-.album-content .img-info .title .data span{padding-left: 35px;}
-.album-content .img-list{overflow: hidden; padding-bottom: 50px;}
-.album-content .img-list .item{float: left; width: 100%;}
-.album-content .img-list .layui-laypage{margin: 50px 0;}
-.album-content .img-list .space>*{padding: 55px;}
-.album-content .img-list .layui-col-space80{padding: 40px;}
-.album-content .img-list .item img{height:300px;width: 300px;}
-.album-content .img-list .cont-text{padding-left: 10px;}
-.album-content .img-list .cont-text .data{line-height: 55px; color: #ff7f21;}
-.album-content .img-list .cont-text .briefly{line-height: 24px; margin-top: 16px;}
-/*end-album*/
+/*project*/
+.project--content .img-info{margin-top: 66px; overflow: hidden; font-size: 16px; margin-bottom: 126px;}
+.project--content .img-info img{float: left; padding-right: 60px;}
+.project--content .img-info .title{line-height: 30px; margin-top: 124px; padding-left: 20px;font-size:20px;}
+.project--content .img-info .title .data{color: #ff7f21;}
+.project--content .img-info .title .data span{padding-left: 35px;}
+.project--content .img-list{overflow: hidden; padding-bottom: 50px;}
+.project--content .img-list .item{float: left; width: 100%; background-color:}
+.project--content .img-list .layui-laypage{margin: 50px 0;}
+.project--content .img-list .space>*{padding: 55px;}
+.project--content .img-list .layui-col-space80{padding: 40px;}
+.project--content .img-list .item img{height:400px;width: 600px;}
+.project--content .img-list .cont-text{padding-left: 10px; font-size:20px;}
+.project--content .img-list .cont-text .data{line-height: 55px; color: #ff7f21;}
+.project-content .img-list .cont-text .briefly{line-height: 24px; margin-top: 16px;}
+/*end-project*/
 
 
 /*about*/
@@ -115,6 +106,14 @@ body{font: 14px 宋体 Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-se
 .about-content .item.contact .cont{overflow: hidden;}
 .about-content .item.contact .cont img{width: 110px; height: 110px; float: left; margin:0 100px;}
 .about-content .item.contact .cont .text{line-height: 36px;}
+.article{
+font-size:25px;
+margin-top:80px ;
+margin-bottom:80px;
+font-weight:bold;
+color:rgb(230, 126, 126)
+
+}
 /*end-about*/
 
 @media screen and (max-width: 1200px){
@@ -136,9 +135,9 @@ body{font: 14px 宋体 Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-se
 }
 @media screen and (max-width: 1000px){
   .leacots-content{padding:0 20px 40px 20px;}
-  .album-content .img-info img{width: 100%; padding-right: 0; margin-bottom: 20px;}
-  .album-content .img-info{margin-top: 0px; margin-bottom: 50px;}
-  .album-content .img-list .space>*{padding:30px;}
+  .project--content .img-info img{width: 100%; padding-right: 0; margin-bottom: 20px;}
+  .project--content .img-info{margin-top: 0px; margin-bottom: 50px;}
+  .project--content .img-list .space>*{padding:30px;}
 }
 @media screen and (max-width: 768px){
   .header .nav,.header .welcome-text{display: none;}
@@ -158,9 +157,9 @@ body{font: 14px 宋体 Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-se
   .content .review-version .list-cont .cont .text .tit .name{margin-left: 20px;}
   .content .review-version .list-cont .cont .text .ct{margin-top: 20px;}
   .leacots-content .review-version .form{margin:40px 0;}
-  .album-content .img-list .space>*{padding:10px;}
-  .album-content .img-list .layui-laypage{margin: 50px 0 0 0;}
-  .album-content .img-list #demo{text-align: center;}
+  .project--content .img-list .space>*{padding:10px;}
+  .project--content .img-list .layui-laypage{margin: 50px 0 0 0;}
+  .project--content .img-list #demo{text-align: center;}
   .about-content .item.info img{margin-right: 0; float: none; height: auto; width: 100%;}
   .about-content .item.info p{padding-left:20px;}
   .about-content .item{padding-bottom: 40px;}
