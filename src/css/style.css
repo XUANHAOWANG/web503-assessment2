@@ -167,4 +167,9 @@ color:rgb(230, 126, 126)
 
   @media screen and (max-width: 700px){
     .header .nav a{ margin:5px;font-size:10px}
+    
+  }
+  @media screen and (max-height: 660px){
+    .header .nav a{ margin:0px;font-size:5px;}
+    .nav{margin-left:-55px;}
   }
